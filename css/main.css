@@ -95,49 +95,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
 body{
 
-
-background-color: #008080;
-
-}
-figure{
-  position: relative;
-  display:flex;
-  flex-wrap:wrap;
-  margin: 15px;
-/*flex-direction: row;*/
-  justify-content: center;
-
-}
-
-.images{
-  width: 100%;
-  display:flex;
-  justify-content: space-around;
-  flex-wrap:wrap;
-
-}
-
-.imageface1{
-position: absolute;
-margin-top: 10px;
-z-index: 20;
-
-}
-
-.imageface2{
-/*position: absolute;*/
-/*margin-right:20px;*/
-/*padding-top: 10px;*/
-margin-top: 10px;
-z-index: 10;
-
-
+display: flex;
+flex-wrap: wrap;
+background-color:#42f4aa;
 }
 
 
 
+.bordure{
+margin-top: 2em;
+margin-left: auto;
+height:200px;
+width: 175px;
+border:1px solid black;
+
+
+}
+.carte{
+  height:200px;
+  width: 175px;
+  position: absolute;
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
